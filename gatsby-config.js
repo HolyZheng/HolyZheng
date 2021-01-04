@@ -7,7 +7,7 @@ module.exports = {
       summary: `前端开发工程师，广州`,
     },
     description: `记录学习，记录生活`,
-    siteUrl: `https://holyzheng.github.io/HolyZheng/`,
+    siteUrl: `https://holyzhengs.ink/`,
     social: {
       twitter: ``,
     },
@@ -70,6 +70,7 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
+    'gatsby-plugin-cname',
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-use-dark-mode`, 
     `gatsby-plugin-material-ui`
