@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/HolyZheng`,
+  pathPrefix: ``,
   siteMetadata: {
     title: `holly's blog`,
     author: {
@@ -71,8 +71,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-use-dark-mode`, 
+    `gatsby-plugin-material-ui`
   ],
 }

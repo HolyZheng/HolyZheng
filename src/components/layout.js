@@ -1,4 +1,5 @@
 import React from "react"
+import DarkMode from "./DarkModeBtn"
 import { Link } from "gatsby"
 
 const Layout = ({ location, title, children }) => {
@@ -22,12 +23,15 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
+      <header className="global-header" style={{ display: "flex", justifyContent: "space-between" }}>
+        {header}
+        <DarkMode />
+      </header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://github.com/HolyZheng">Github</a>
+        {` • `}
+        <a href="https://juejin.cn/user/2875978147699534/posts">掘金</a>
       </footer>
     </div>
   )
