@@ -1,5 +1,5 @@
 ### Hi there, I'm HolyZheng 👋
-目前任职于网易邮件事业部，快速成长中。
+目前任职于阿里巴巴，快速成长中～
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/HolyZheng/holyZheng-blog/master/images/coding.gif" width="200" />
 
 **Languages and Tools:**  
